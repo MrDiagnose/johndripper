@@ -6,6 +6,8 @@ h1{
 
 body{
     margin: 0;
+    /*background-image: url(https://images.unsplash.com/photo-1655835585425-6f88f1b93f3d?ixlib=rb-1.2.1&dl=dana-sarsenbekova-xM_ja4daN9c-unsplash.jpg&w=1920&q=80&fm=jpg&crop=entropy&cs=tinysrgb);
+   background-position: center;*/
 }
 
 form
@@ -15,8 +17,19 @@ form
     min-width: 300px;
     margin-left: auto;
     margin-right: auto;
+    /*background: rgba(55, 7, 174, 0.3)*/
 }
 
 label{
     display: block;
+}
+input{
+    width: 100%;
+}
+.radio, .checkbox{
+    width: unset;
+}
+
+textarea{
+    width: 100%;
 }
