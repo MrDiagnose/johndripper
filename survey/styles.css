@@ -5,7 +5,10 @@ h1{
 
 
 body{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.2rem;
     margin: 0;
+    background-color: rgba(82, 77, 175, 0.255);
     /*background-image: url(https://images.unsplash.com/photo-1655835585425-6f88f1b93f3d?ixlib=rb-1.2.1&dl=dana-sarsenbekova-xM_ja4daN9c-unsplash.jpg&w=1920&q=80&fm=jpg&crop=entropy&cs=tinysrgb);
    background-position: center;*/
 }
@@ -18,6 +21,9 @@ form
     margin-left: auto;
     margin-right: auto;
     /*background: rgba(55, 7, 174, 0.3)*/
+    background-color: rgba(25, 15, 140, 0.274);
+    padding:25px;
+    border-radius: 20px;
 }
 
 label{
@@ -25,7 +31,18 @@ label{
 }
 input{
     width: 100%;
+    height: 25px;
 }
+
+#submit{
+    margin: 0;
+    padding:0;
+    background-color: rgba(15, 215, 15, 0.869);
+    border-color: rgba(12, 133, 12, 0.519);
+    padding:0 251px; /*left right padding to make it similar in width to other input elements*/
+
+}
+
 .radio, .checkbox{
     width: unset;
 }
