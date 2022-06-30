@@ -5,21 +5,63 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Survey Form</title>
+    <link rel="stylesheet" href="styles.css" />
   </head>
   <body>
     <h1 id="title">Survey Form</h1>
     <p id="description"></p>
     <form id="survey-form" action="">
-      <label for=""
-        >Name: <input placeholder="Johndripper" type="text" name="" id="name"
+      <label id="name-label" for="name"
+        >Name:
+        <input placeholder="Johndripper" type="text" name="" id="name" required
       /></label>
-      <label for=""
+      <label id="email-label" for="email"
         >Email:
-        <input placeholder="John@dripper.com" type="email" name="" id="email"
+        <input
+          placeholder="John@dripper.com"
+          type="email"
+          name=""
+          id="email"
+          required
+      /></label>
+      <label id="number-label" for="number"
+        >Age:
+        <input
+          type="text"
+          placeholder="15"
+          name=""
+          id="number"
+          min="15"
+          max="100"
+      /></label>
+      <label for="dropdown">
+        option:
+        <select name="" id="dropdown">
+          <option value="option1">option 1</option>
+          <option value="option2">option 2</option>
+          <option value="option3">option 3</option>
+          option 2
+        </select>
+      </label>
+      <label for="">Male: <input type="radio" name="gender" /> </label>
+      <label for="">Female: <input type="radio" name="gender" /></label>
+      <label for=""
+        >Checkbox 1 <input type="checkbox" value="checkbox1"
       /></label>
       <label for=""
-        >Age: <input type="text" placeholder="15" name="" id="number"
+        >Checkbox 2 <input type="checkbox" value="checkbox2"
       /></label>
+      <label for=""
+        >Checkbox 3 <input type="checkbox" value="checkbox3"
+      /></label>
+      <label for=""
+        >Checkbox 4 <input type="checkbox" value="checkbox4"
+      /></label>
+      <label for=""
+        >Checkbox 5 <input type="checkbox" value="checkbox5"
+      /></label>
+      <textarea name="" id="" cols="30" rows="10"></textarea>
+      <input type="button" id="submit" value="submit" />
     </form>
   </body>
 </html>
